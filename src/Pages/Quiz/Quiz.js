@@ -74,6 +74,9 @@ export const Quiz = ({ data, countdownTime, endQuiz }) => {
       setVisitedQuestions([...visitedQuestions, questionId]);
     }
   };
+  const handlejump = (param) => {
+    setQuestionIndex(param);
+  };
   const handleNext = () => {
     let point = 0;
     if (userSlectedAns === he.decode(data[questionIndex].correct_answer)) {
@@ -170,6 +173,7 @@ export const Quiz = ({ data, countdownTime, endQuiz }) => {
                     ? "blue"
                     : "black",
               }}
+              onClick={() => handlejump(index)}
             >
               {index + 1}
             </div>
