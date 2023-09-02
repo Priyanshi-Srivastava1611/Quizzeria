@@ -127,7 +127,10 @@ export const Quiz = ({ data, countdownTime, endQuiz }) => {
     setQuestionsAndAnswers(qna);
   };
   const handlePrev = () => {
-    setUserSlectedAns(questionsAndAnswers[questionIndex - 1].user_answer);
+    const qna = questionsAndAnswers;
+    if (qna[questionIndex]) {
+      setUserSlectedAns(questionsAndAnswers[questionIndex]?.user_answer);
+    } else setUserSlectedAns(null);
     setnext(true);
     if (questionIndex == 0) setprev(false);
     else setprev(true);
