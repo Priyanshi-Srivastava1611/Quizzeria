@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Quizzeria/static/css/main.d288e4c1.css",
-    "main.js": "/Quizzeria/static/js/main.5a15632e.js",
+    "main.css": "/Quizzeria/static/css/main.5c938c2f.css",
+    "main.js": "/Quizzeria/static/js/main.a3bc1034.js",
     "static/js/787.c414ba7f.chunk.js": "/Quizzeria/static/js/787.c414ba7f.chunk.js",
     "static/media/que.svg": "/Quizzeria/static/media/que.950d5db84615a158eea179840f171c9a.svg",
     "index.html": "/Quizzeria/index.html",
     "static/media/timer.svg": "/Quizzeria/static/media/timer.da40f916d29fef560c306769556018ed.svg",
-    "main.d288e4c1.css.map": "/Quizzeria/static/css/main.d288e4c1.css.map",
-    "main.5a15632e.js.map": "/Quizzeria/static/js/main.5a15632e.js.map",
+    "main.5c938c2f.css.map": "/Quizzeria/static/css/main.5c938c2f.css.map",
+    "main.a3bc1034.js.map": "/Quizzeria/static/js/main.a3bc1034.js.map",
     "787.c414ba7f.chunk.js.map": "/Quizzeria/static/js/787.c414ba7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d288e4c1.css",
-    "static/js/main.5a15632e.js"
+    "static/css/main.5c938c2f.css",
+    "static/js/main.a3bc1034.js"
   ]
 }

@@ -324,7 +324,7 @@
   cursor: pointer;
 }
 .active {
-  color: red !important;
+  color: rgb(255, 127, 8) !important;
 }
 .nextactive {
   color: white !important;

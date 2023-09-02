@@ -36,7 +36,7 @@ export const HomePage = () => {
             id="email"
             name="email"
             value={email}
-            placeholder="Email"
+            placeholder="Enter Your Email"
             onChange={handleChange}
           />
         </div>

@@ -9,7 +9,7 @@ import useShuffle from "../Utils/useShuffle";
 export const Instruction = ({ startQuiz }) => {
   const [countdownTime, setCountdownTime] = useState({
     hours: 0,
-    minutes: 900,
+    minutes: 1800,
     seconds: 0,
   });
 
