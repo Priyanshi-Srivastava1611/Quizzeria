@@ -43,7 +43,7 @@ export const Instruction = ({ startQuiz }) => {
       <div className="quiz-head">
         <Link
           className="btn-redirect-inst"
-          to="/"
+          to="/Quizzeria"
           style={{ textDecoration: "none", color: "black" }}
         >
           <div className="back-btn">
@@ -101,7 +101,7 @@ export const Instruction = ({ startQuiz }) => {
             Click submit if you are sure you want to complete all the quizzes.
           </li>
         </ul>
-        <Link to="/main" style={{ textDecoration: "none" }}>
+        <Link to="/Quizzeria/main" style={{ textDecoration: "none" }}>
           <div
             className="quiz-start-btn"
             onClick={() => {

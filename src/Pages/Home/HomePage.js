@@ -45,7 +45,7 @@ export const HomePage = () => {
         ) : (
           <Link
             className="btn-redirect"
-            to="/main"
+            to="/Quizzeria/main"
             style={{ textDecoration: "none" }}
           >
             <button className="submit-btn">SUBMIT</button>

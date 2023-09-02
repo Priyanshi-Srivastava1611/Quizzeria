@@ -47,7 +47,10 @@ export const ShowResults = ({
         })}
       </div>
       <div className="result-foot">
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link
+          to="/Quizzeria"
+          style={{ textDecoration: "none", color: "black" }}
+        >
           <div className="back-btn-home">{"BACK HOME"}</div>
         </Link>
       </div>
