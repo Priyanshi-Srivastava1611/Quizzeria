@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/main" element={<Main />} />
+          <Route path="/Quizzeria" element={<HomePage />} />
+          <Route path="/main" element={<Main />} />
           {/* <Route exact path="/instructions" element={Instruction} />
           <Route exact path="/quiz" element={Quiz} /> */}
           {/* <Route exact path="/main/result" element={ShowResults} /> */}
