@@ -1,3 +1,5 @@
+Overview- This is a quiz application where people can login and play the quiz naviate and at the end get their scores
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
